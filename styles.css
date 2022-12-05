@@ -1,0 +1,13 @@
+body{
+    background-color:#EEEEEE;
+}
+
+.container{
+    background-color: #F5F5F5;
+}
+
+.form-control:focus {
+    border-color: black;
+    box-shadow: rgba(213, 217, 217, .5) 0 2px 5px 0;
+    outline: 0;
+}
