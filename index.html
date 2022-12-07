@@ -18,7 +18,7 @@
   </head>
   <body>
     <div
-      class="container d-flex flex-column flex-sm-row align-items-center shadow p-3 mb-5 rounded"
+      class="container d-flex flex-column flex-sm-row align-items-center shadow p-3 mt-3 mb-5 rounded"
     >
       <div class="col-sm-6 col-md-4 col-lg-6">
         <img src="photo.jpg" class="img-fluid rounded-1" alt="" />
@@ -30,23 +30,35 @@
           ></i>
           <h2 class="text-center p-sm-2">Sign into your account</h2>
         </div>
-        <!-- <form class="d-grid gap-3 p-3 m-4">
-            <div class="row mb-3 mt-4 pt-4">
-              <label for="inputEmail3" class="col-sm-4 col-md-3 col-lg-2 col-form-label p-2">Email</label>
-              <div class="col-sm-8 col-md-9 col-lg-10">
-                <input type="email" class="form-control" id="inputEmail3">
-              </div>
+        <form class="d-flex flex-column align-items-center text-center">
+          <div class="mb-3 mt-4">
+            <label for="exampleInputEmail1" class="form-label"
+              >Email address</label
+            >
+            <input
+              type="email"
+              class="form-control"
+              id="exampleInputEmail1"
+              aria-describedby="emailHelp"
+            />
+            <div id="emailHelp" class="form-text">
+              We'll never share your email with anyone else.
             </div>
-            <div class="row mb-3">
-              <label for="inputPassword3" class="col-sm-4 col-md-3 col-lg-2 col-form-label p-2">Password</label>
-              <div class="col-sm-8 col-md-9 col-lg-10">
-                <input type="password" class="form-control" id="inputPassword3">
-              </div>
-            </div>
-            <div class="d-grid">
-              <button class="btn btn-outline-dark" type="button">Sign in</button>
-            </div>
-          </form> -->
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label"
+              >Password</label
+            >
+            <input
+              type="password"
+              class="form-control"
+              id="exampleInputPassword1"
+            />
+          </div>
+          <div>
+            <button type="submit" class="btn btn-dark">Submit</button>
+          </div>
+        </form>
       </div>
     </div>
   </body>
